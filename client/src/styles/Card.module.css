@@ -1,11 +1,11 @@
 .card {
   background-color: rgb(200, 127, 174);
-  margin: 4px 4px;
-  padding: 4px 8px;
-  border: 1px solid rgb(54, 54, 54);
+  margin: 6px 4px;
+  padding: 6px 10px;
+  border: 2px solid rgb(232, 225, 225);
   border-radius: 4px;
   width: 140px;
-  font-size: 0.5em;
+  font-size: 0.9em;
 }
 .card img{
     width: 140px;
@@ -17,7 +17,7 @@
     cursor: pointer;
     border-radius: 8px;
     background-color: rgb(250, 196, 188);
-    border: 1px solid rgb(251, 206, 206);
+    border: 1px solid rgb(189, 182, 182);
 }
 .card button:hover{
   background-color: rgb(253, 231, 227);
