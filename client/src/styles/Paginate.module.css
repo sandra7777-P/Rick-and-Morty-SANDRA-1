@@ -1,0 +1,27 @@
+.container{
+  margin: 44px 500px;
+}
+.paginate {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  justify-content: space-around;
+  justify-items: center;
+  align-items: center;
+}
+
+.paginate p, button, h3 {
+  background-color: rgb(243, 118, 120);
+  padding: 6px 16px;
+  margin: 5px 4px;
+  border-radius: 5px;
+  border: 1px rgb(219, 38, 159) solid;
+  
+}
+
+.paginate button:hover {
+    background-color: rgb(205, 146, 168);
+    border: 1px rgb(251, 0, 255) solid;
+    
+  }
+
+
