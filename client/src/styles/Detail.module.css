@@ -5,9 +5,10 @@
   justify-content: center;
   align-items: center;
   color: rgb(32, 8, 56);
-  background-color: rgb(234, 225, 233);
+  background-color: rgb(237, 146, 226);
   border-radius: 40px;
-  border: 1px rebeccapurple solid;
+  border: 1px rgb(17, 3, 32) solid;
+  border-radius: 35% 15rem / 100px 30%;
 }
 .detail:hover {
   background-color: rgb(245, 211, 238);

@@ -1,5 +1,5 @@
 .container{
-  margin: 44px 500px;
+  margin: 55px 500px;
 }
 .paginate {
   display: grid;
@@ -21,6 +21,7 @@
 .paginate button:hover {
     background-color: rgb(205, 146, 168);
     border: 1px rgb(251, 0, 255) solid;
+    border-radius: 35% 15rem / 100px 30%;
     
   }
 

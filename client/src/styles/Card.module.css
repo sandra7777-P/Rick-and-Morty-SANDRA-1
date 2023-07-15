@@ -3,25 +3,35 @@
   margin: 6px 4px;
   padding: 6px 10px;
   border: 2px solid rgb(232, 225, 225);
-  border-radius: 4px;
+  border-radius: 35% 15rem / 100px 30%;
+  backface-visibility: hidden;
   width: 140px;
   font-size: 0.9em;
+  transform: rotate(358deg);
+  position: relative;
+  transform-style: rotate(15deg);
 }
 .card img{
-    width: 140px;
+    width: 120px;
 }
 .card button{
     font-size: 0.8em;
     font-weight: bold;
     padding: 4px 8px;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 35% 15rem / 100px 30%; 
     background-color: rgb(250, 196, 188);
     border: 1px solid rgb(189, 182, 182);
+    transform: rotate(355deg);
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 600ms;
+    transform: rotate(358deg);
 }
 .card button:hover{
   background-color: rgb(253, 231, 227);
   border: 1px solid rgb(54, 54, 54);
+  transform: rotate(358deg);
 }
 .close{
   display: flex;

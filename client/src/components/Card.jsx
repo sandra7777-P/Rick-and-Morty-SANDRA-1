@@ -23,15 +23,7 @@ function Card({ char, onClose, myFavorites, removeFav, addFav, inFav }) {
       addFav(char);
     }
   };
-  /*
-  handleFavorite. Esta función estará dividida en dos partes:
-  Si el estado isFav es true, entonces settea ese estado en false, 
-  y despacha la función removeFav que recibiste por props pasándole 
-  el id del personaje como argumento.
-  Si el estado isFav es false, entonces settea ese estado en true, 
-  y despacha la función addFav que recibiste por props, pasándole 
-  props como argumento.
-*/
+
 
   useEffect(() => {
     myFavorites.forEach((fav) => {

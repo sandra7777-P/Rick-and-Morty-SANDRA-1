@@ -3,8 +3,10 @@
   grid-template-columns: repeat(6, 1fr);
   justify-content: space-around;
   justify-items: center;
-  padding: 4px 40px;
-  margin: 20px 40px;
+  padding: 3px 40px;
+  margin: 3px 40px;
+  flex-wrap: wrap;
+  transform-style: rotate(15deg);
 }
 .cards nav {
   display: flex;
@@ -12,13 +14,14 @@
   flex-wrap: nowrap;
   align-content: normal;
   align-items: stretch;
-  background-color: rgb(207, 98, 190);
-  border-radius: 4px;
-  margin: 4px 4px;
+  background-color: rgb(199, 108, 186);
+  border-radius: 35% 15rem / 100px 30%; 
+  margin: 5px 5px;
   padding: 14px 8px;
+  transform-style: rotate(15deg);
 }
 .cards select{
-    border-radius: 4px;
+    border-radius: 35% 15rem / 100px 30%; 
     background-color: rgb(240, 199, 235);
     margin: 4px 4px;
     margin-bottom: 40px;

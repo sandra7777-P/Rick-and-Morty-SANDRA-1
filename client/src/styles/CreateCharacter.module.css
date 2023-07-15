@@ -2,13 +2,14 @@
 .container form {
     display: flex;
     flex-direction: column;
-    margin: 30px 300px;
-    padding: 20px 50px;
+    margin: 20px 300px;
+    padding: 20px 40px;
     border-radius: 4px;
     border: 1px rgb(104, 17, 92) solid;
     background-color: rgb(197, 159, 199);
     text-align: center;
+    border-radius: 35% 15rem / 100px 30%;
 }
 .container input {
- margin: 5px 4px;
+ margin: 5px 3px;
 }

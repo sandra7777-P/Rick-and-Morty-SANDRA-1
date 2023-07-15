@@ -7,6 +7,8 @@
   border-radius: 20px;
   margin: 14px 30px;
   padding: 0px 4px;
+  border-radius: 35% 15rem / 100px 30%;
+
 }
 .link{
   cursor: pointer;
@@ -17,9 +19,11 @@
   font-weight: bold;
   border-radius: 4px;
   border: 1px rgb(179, 129, 166) solid;
+  border-radius: 35% 15rem / 100px 30%;
 }
 .link:hover{
   background-color:rgb(239, 151, 151);
   color: rgb(158, 51, 140);
   border: 1px rgb(4, 4, 4) solid;
+  border-radius: 35% 15rem / 100px 30%;
 }
